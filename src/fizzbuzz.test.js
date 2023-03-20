@@ -7,4 +7,7 @@ describe("Fizz buzz un numero", () => {
   it("deberia retornar el numero 2", () => {
     expect(fizzbuzz(2)).toEqual(2);
   });
+  it("deberia retornar la cadena correspondiente al numero 3", () => {
+    expect(fizzbuzz(3)).toEqual("Fizz");
+  });
 });
