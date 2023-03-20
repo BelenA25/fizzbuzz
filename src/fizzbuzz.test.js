@@ -31,4 +31,10 @@ describe("Fizz buzz una cadena", () => {
   it("deberia retornar la cadena 1,2", () => {
     expect(fizzbuzz_cadena(2)).toEqual("1,2");
   });
+  it("deberia retornar la cadena 1,2,Fizz", () => {
+    expect(fizzbuzz_cadena(3)).toEqual("1,2,Fizz");
+  });
+  it("deberia retornar la cadena 1,2,Fizz,4,Buzz", () => {
+    expect(fizzbuzz_cadena(5)).toEqual("1,2,Fizz,4,Buzz");
+  });
 });

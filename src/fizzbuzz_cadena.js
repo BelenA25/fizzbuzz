@@ -6,13 +6,12 @@ function fizzbuzz_cadena(num) {
     {
         if (cadena == "")
         {
-            cadena =  i.toString();
+            cadena =  fizzbuzz(i).toString();
         }
         else
         {
-            cadena = cadena +"," + i.toString();
+            cadena = cadena +"," + fizzbuzz(i).toString();
         }
-        
     }
     return cadena;
 }
