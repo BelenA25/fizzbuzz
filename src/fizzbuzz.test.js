@@ -17,6 +17,9 @@ describe("Fizz buzz un numero", () => {
     expect(fizzbuzz(8)).toEqual(8);
   });
   it("deberia retornar la cadena correspondiente al multiplo del numero 3", () => {
-    expect(fizzbuzz(15)).toEqual("Fizz");
+    expect(fizzbuzz(9)).toEqual("Fizz");
+  });
+  it("deberia retornar la cadena correspondiente al multiplo del numero 5", () => {
+    expect(fizzbuzz(10)).toEqual("Buzz");
   });
 });
