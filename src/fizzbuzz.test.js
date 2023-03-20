@@ -1,4 +1,5 @@
 import fizzbuzz from "./fizzbuzz.js";
+import fizzbuzz_cadena from "./fizzbuzz_cadena.js";
 
 describe("Fizz buzz un numero", () => {
   it("deberia retornar 1", () => {
@@ -21,5 +22,10 @@ describe("Fizz buzz un numero", () => {
   });
   it("deberia retornar la cadena correspondiente al multiplo del numero 5", () => {
     expect(fizzbuzz(10)).toEqual("Buzz");
+  });
+});
+describe("Fizz buzz una cadena", () => {
+  it("deberia retornar la cadena 1", () => {
+    expect(fizzbuzz_cadena(1)).toEqual("1");
   });
 });
